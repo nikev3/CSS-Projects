@@ -1,0 +1,91 @@
+@import './vars.css';
+@import 'keyframes.css';
+body{
+    background-image: url("../photos/allium.JPG");
+    background-repeat: no-repeat;
+}
+#TextBox{
+    text-align: center;
+    font-size: 50px;
+    width: 400px;
+    height: 200px;
+    opacity: 30%;
+    color: black;
+    background-color: white;
+    color: white;
+    position: fixed;
+    left: 580px;
+    bottom: 360px;
+}
+#Text{
+    position: relative;
+    opacity: 50;
+    text-align: center;
+    position: fixed;
+    position: fixed;
+    left: 620px;
+    bottom: 380px;
+    font-size: 50px;
+    color: white;
+}
+#daylily{
+    width: var(---mainimgsize---);
+    height: calc(var(---mainimgsize---)+100px);
+    position: fixed;
+    left: 620px;
+    bottom: 120px;
+    animation-name: UnFade;
+    animation-duration: 1s;
+    
+  
+}
+#daylily2{
+    width: var(---mainimgsize---);
+    height: calc(var(---mainimgsize---)+100px);
+    position: fixed;
+    left: calc(490px*2);
+    bottom: 120px;
+    animation-name: UnFade;
+    animation-duration: 1s;
+    
+}
+#lily{
+    width: var(---mainimgsize---);
+    height: calc(var(---mainimgsize---)+100px);
+    position: fixed;
+    left: calc(490px/2);
+   bottom: 120px;
+   animation-name: UnFade;
+   animation-duration: 1s;
+   
+}
+
+#daylily:hover{
+    animation-name: Fade;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+#daylily2:hover{
+    animation-name: Fade;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+#lily:hover{
+    animation-name: Fade;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+a{
+    animation-name: UnFade;
+    animation-duration: 1s;
+    position: fixed;
+    font-size: 24px;
+    left: 640px;
+    bottom: 50px;
+    color: white;
+}
+a:hover{
+    animation-name: Fade;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}

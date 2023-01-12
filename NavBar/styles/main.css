@@ -1,0 +1,81 @@
+@import './vars.css';
+@import 'keyframes.css';
+html{overflow: scroll;}
+ul{
+    list-style-type: none;
+    margin: 0;
+    width: 250px;
+    
+    padding: 20px;
+    background-color: gray;
+    color:black;
+    
+}
+ol{
+    margin: 0;
+    width: 250px;
+    height: 420px;
+    padding-right: 20px;
+    
+    background-color: gray;
+    color:black;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 150%;
+    padding:20px;
+    animation-name: Ocolor;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+a:hover{
+    animation-name: HoverColor;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+#Para {
+    position: fixed;
+    left: 420px;
+    top: 15px;
+    width: 50%;
+    font-size: 25px;
+}
+#SundaeRecipie1{
+    position: fixed;
+    left: 420px;
+    top: 100px;
+    width: 50%;
+    font-size: 25px;
+    background: none !important;
+}
+#ForFudge{
+    font-size: 30px;
+    
+}
+#SundaeRecipie2{
+    position: fixed;
+    left: 720px;
+    top: 100px;
+    width: 50%;
+    font-size: 25px;
+    background: none;
+}
+
+#rtitle{
+    position: fixed;
+    left: 420px;
+    top:15px
+}
+#SundaeRecipie3{
+    position: fixed;
+    left: 1020px;
+    top: 100px;
+    width: 50%;
+    font-size: 25px;
+    background: none;
+    
+}

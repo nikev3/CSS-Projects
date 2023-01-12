@@ -1,0 +1,140 @@
+
+@import 'keyframes.css';
+@import 'vars.css';
+
+html{background-color: blue;}
+h1{
+    color:white;
+    text-align: center;
+    font-size: 100px;
+}
+#s1{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    background: none;
+    animation-name: SnowflakeFall;
+    animation-duration: 5s;
+    
+    animation-iteration-count: infinite;
+}
+#s2{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    background: none;
+    left: 10%;
+    animation-name: SnowflakeFall;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+#s3{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    background: none;
+    left: 20%;
+    animation-name: SnowflakeFall;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+#s4{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    background: none;
+    left: 30%;
+    animation-name: SnowflakeFall;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+#s5{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    background: none;
+    left: 40%;
+    animation-name: SnowflakeFall;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+#s6{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    background: none;
+    left: 50%;
+    animation-name: SnowflakeFall;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#s7{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    background: none;
+    left: 60%;
+    animation-name: SnowflakeFall;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#s8{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    background: none;
+    left: 70%;
+    animation-name: SnowflakeFall;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#s9{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    background: none;
+    left: 80%;
+    animation-name: SnowflakeFall;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+#s10{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    background: none;
+    left: 90%;
+    animation-name: SnowflakeFall;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+#s11{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    background: none;
+    left: 10%;
+    animation-name: SnowflakeFall;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+#s12{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    background: none;
+    left: 20%;
+    animation-name: SnowflakeFall;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+#s13{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    background: none;
+    left: 30%;
+    animation-name: SnowflakeFall;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}

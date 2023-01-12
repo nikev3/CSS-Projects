@@ -1,0 +1,71 @@
+@keyframes ex{
+    from {
+        opacity: 0;
+        left: -984px;
+    }
+    to {
+        opacity: 1;
+        left: 449px;
+    }
+}
+@keyframes Bio{
+from{left: -480}
+to{left:480}
+}
+@keyframes SkillPhoto{
+    from {opacity: 0;
+        left: -984px;
+    }
+    to {
+        opacity: 1;
+        left: 935px;
+    }
+}
+@keyframes fade{
+    from {opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes Menu{
+    from {opacity: 0;
+        left: -984px;
+    }
+    to {left:325px}
+}
+@keyframes HoverAnim {
+   to {
+       padding-left: 10px;
+       
+    }
+}
+@keyframes HobbyHoverAnim {
+    to {
+        padding-left: 10px;
+        color: white;
+     }
+ }
+@keyframes HobbyPhoto{
+    from{left: -400px;}
+    to{left: 1074px;}
+}
+@keyframes UnHover{
+    from{padding-left: 10px;}
+    to{color: black; padding-left: 0px;}
+}
+@keyframes UnHoverHobby{
+    from{padding-left: 10px; color: white;}
+    to{color: black; padding-left: 0px;}
+}
+@keyframes APhoto{
+    from{left: -720px;}
+}
+@keyframes WorkSampleLinkUH{
+    from{color: #FFFFFF;}
+    to{color: #000000;}
+}
+@keyframes WorkSampleLinkH{
+    from{color: #000000;}
+    to{color: #FFFFFF;}
+}

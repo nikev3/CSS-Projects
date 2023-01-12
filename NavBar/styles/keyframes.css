@@ -1,0 +1,7 @@
+@keyframes Ocolor{
+
+to{background-color: gray; color: black;}
+}
+@keyframes HoverColor{
+    to{background-color: black; color:white}
+}

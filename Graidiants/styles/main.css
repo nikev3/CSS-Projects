@@ -1,0 +1,63 @@
+@import './vars.css';
+@import 'keyframes.css';
+html{
+    background: linear-gradient(to right,green,black);
+    
+}
+#box1{
+    background: linear-gradient(to right,#8c6258,black);
+    width: var(--maincubesize--);
+    height: var(--maincubesize--);
+    position: fixed;
+    top: 200px;
+    left: 400px;
+}
+#box2{
+    background: linear-gradient(to top,#8c6258,black);
+    width: var(--maincubesize--);
+    height: var(--maincubesize--);
+    position: fixed;
+    top: 200px;
+    left: calc(400px*1.8) ;
+}
+#box3{
+    background: linear-gradient(-135deg,#8c6258,black);
+    width: var(--maincubesize--);
+    height: var(--maincubesize--);
+    position: fixed;
+    top: 200px;
+    left: calc(400px*2.6);
+}
+#box4{
+    background: linear-gradient(to top,transparent,#8c6258,black);
+    width: var(--maincubesize--);
+    height: var(--maincubesize--);
+    position: fixed;
+    top: 520px;
+    left: 400px;
+}
+#box5{
+    background:radial-gradient(circle at center,maroon,#8c6258,#55342B,black 85%);
+    width: var(--maincubesize--);
+    height: var(--maincubesize--);
+  
+    position: fixed;
+    top: 520px;
+    left: calc(400px*1.8);
+}
+#box6{
+    background: linear-gradient(#f8dfa1,#8c6258,black);
+    width: var(--maincubesize--);
+    height: var(--maincubesize--);
+    position: fixed;
+    top: 520px;
+    left: calc(400px*2.6);
+}
+p{
+    color:orange;
+    text-align: center;
+    font-size: 40px;
+    font-family: Impact;
+    padding-bottom: 20px;
+    background: none;
+}
