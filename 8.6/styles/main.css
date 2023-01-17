@@ -1,0 +1,30 @@
+@import './vars.css';
+@import 'keyframes.css';
+
+#picture{
+    width: 450px;
+    height: 700px;
+    background-color: gray;
+    outline: 4px solid black;
+    
+}
+#Story{
+    width: 600px;
+    height: 700px;
+    background-color: lightgray;
+    outline: 4px solid black;
+    margin-left: 500px;
+    margin-top: -715px;
+    overflow-y: scroll;
+    
+}
+#Story p{
+    padding-left: 10px;
+    
+}
+#Story p:first-letter{
+    font-weight: bold;
+    font-size:300%;
+    float:left;
+    padding-right:10px;
+}

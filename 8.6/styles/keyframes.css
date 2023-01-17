@@ -1,0 +1,7 @@
+@keyframes Fade{
+    to{opacity: 0.5;}
+}
+@keyframes UnFade{
+    to{opacity: 1;}
+}
+
